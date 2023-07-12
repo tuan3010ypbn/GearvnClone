@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gearvn</title>
   <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/grid.css">
   <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/">
   <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="link" rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
   <div class="app">
     <a href="#" class="banner-ads">
@@ -19,68 +24,91 @@
     </a>
 
     <header class="header">
-      <div class="header__list">
-        <a href="#" class="header__logo header-item">
-          <img src="./assets/img/logo_svg.svg" alt="" class="logo__img">
-        </a>
+      <div class="grid wide">
+
+        <div class="header__list">
+          <a href="#" class="header__logo header-item">
+            <img src="./assets/img/logo_svg.svg" alt="" class="logo__img">
+          </a>
+
+          <div class="header__category header-item">
+            <i class="fa-solid fa-bars category-icon"></i>
+            <span class="category-text">Danh mục</span>
+          </div>
+
+          <div class="header__search header-item">
+            <input type="text" class="header__search-input" placeholder="Bạn cần tìm gì?">
+            <span class="header__search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+          </div>
+
+          <a href="#" class="header-same header-item">
+            <div class="contact__icon">
+              <i class="ti-headphone-alt"></i>
+            </div>
+            <div class="contact__hotline">
+              <span class="hotline-text">Hotline</span>
+              <span class="hotline-phone">1800.6975</span>
+            </div>
+          </a>
+
+          <a href="#" class="header-same header-item">
+            <div class="contact__icon">
+              <i class="ti-location-pin"></i>
+            </div>
+            <div class="contact__hotline">
+              <span class="hotline-text">Hệ thống</span>
+              <span class="hotline-phone">Showroom</span>
+            </div>
+          </a>
+
+          <a href="#" class="header-same header-item">
+            <div class="contact__icon">
+              <i class="ti-clipboard"></i>
+            </div>
+            <div class="contact__hotline">
+              <span class="hotline-text">Tra cứu</span>
+              <span class="hotline-phone">đơn hàng</span>
+            </div>
+          </a>
+
+          <a href="#" class="header-same header-item">
+            <div class="contact__icon">
+              <i class="ti-shopping-cart"></i>
+            </div>
+            <div class="contact__hotline">
+              <span class="hotline-text">Giỏ hàng</span>
+              <!-- <span class="hotline-phone"></span> -->
+            </div>
+          </a>
+
+          <div class="header__login">
+            <a href="" class="header__login-btn">
+              <i class="ti-user login-icon"></i>
+              <span class="login-text">Đăng nhập</span>
+            </a>
+            <div class="login-wrap">
+              <div class="login-wrap__container">
+                <div class="login-wrap__head">
+                  <i class="fa-regular fa-hand login__head-icon"></i>
+                  <span class="login__head-title">Xin chào, vui lòng đăng nhập</span>
+                </div>
   
-        <div class="header__category header-item">
-          <i class="fa-solid fa-bars category-icon"></i>
-          <span class="category-text">Danh mục</span>
+                <div class="login-wrap__content">
+                  <button class="login__content-btn login-sign-in">Đăng nhập</button>
+                  <button class="login__content-btn login-sign-up">Đăng ký</button>
+                </div>
+  
+                <div class="login-wrap__footer">
+                  <i class="fa-solid fa-circle-question login__footer-icon"></i>
+                  <a href="#" class="login__footer-help">Trợ giúp</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
-
-        <div class="header__search header-item">
-          <input type="text" class="header__search-input" placeholder="Bạn cần tìm gì?">
-          <span class="header__search-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </span>
-        </div>
-
-        <a href="#" class="header-same header-item">
-          <div class="contact__icon">
-            <i class="ti-headphone-alt"></i>
-          </div>
-          <div class="contact__hotline">
-            <span class="hotline-text">Hotline</span>
-            <span class="hotline-phone">1800.6975</span>
-          </div>
-        </a>
-
-        <a href="#" class="header-same header-item">
-          <div class="contact__icon">
-            <i class="ti-location-pin"></i>
-          </div>
-          <div class="contact__hotline">
-            <span class="hotline-text">Hệ thống</span>
-            <span class="hotline-phone">Showroom</span>
-          </div>
-        </a>
-
-        <a href="#" class="header-same header-item">
-          <div class="contact__icon">
-            <i class="ti-clipboard"></i>
-          </div>
-          <div class="contact__hotline">
-            <span class="hotline-text">Tra cứu</span>
-            <span class="hotline-phone">đơn hàng</span>
-          </div>
-        </a>
-
-        <a href="#" class="header-same header-item">
-          <div class="contact__icon">
-            <i class="ti-shopping-cart"></i>
-          </div>
-          <div class="contact__hotline">
-            <span class="hotline-text">Giỏ hàng</span>
-            <!-- <span class="hotline-phone"></span> -->
-          </div>
-        </a>
-
-        <a href="#" class="header__login">
-          <i class="ti-user login-icon"></i>
-          <span class="login-text">Đăng nhập</span>
-        </a>
-
       </div>
 
     </header>
@@ -124,6 +152,1278 @@
       </div>
     </div>
 
+    <div class="body grid wide">
+      <div class="body__top">
+        <div class="body__top-category c-2">
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-solid fa-laptop"></i>
+            <span class="category__item-name">Laptop</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-solid fa-gamepad"></i>
+            <span class="category__item-name">Laptop Gaming</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-solid fa-computer"></i>
+            <span class="category__item-name">PC KM Đặc Biệt</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-solid fa-computer"></i>
+            <span class="category__item-name">PC Gaming</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-solid fa-computer"></i>
+            <span class="category__item-name">PC Đồ Hoạ</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-solid fa-computer"></i>
+            <span class="category__item-name">PC Doanh Nghiệp</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-solid fa-microchip"></i>
+            <span class="category__item-name">Linh kiện PC</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-brands fa-apple"></i>
+            <span class="category__item-name">Apple</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-solid fa-desktop"></i>
+            <span class="category__item-name">Màn hình</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-regular fa-keyboard"></i>
+            <span class="category__item-name">Bàn phím</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-solid fa-computer-mouse"></i>
+            <span class="category__item-name">Chuột + Lót chuột</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-solid fa-headphones"></i>
+            <span class="category__item-name">Tai nghe - Loa</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-solid fa-chair"></i>
+            <span class="category__item-name">Ghế - Bàn</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-solid fa-print"></i>
+            <span class="category__item-name">Phần mềm & Mạng</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-solid fa-gamepad"></i>
+            <span class="category__item-name">Phụ kiện</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+          <a href="" class="body-category__item">
+            <i class="category__item-icon fa-solid fa-gift"></i>
+            <span class="category__item-name">Thủ thuật - Giải đáp</span>
+            <i class="category__item-icon fa-solid fa-angle-right"></i>
+          </a>
+        </div>
+
+        <div class="body__top-product">
+
+          <div class="body__top-slider">
+            <a href="#" class="body-slider__img">
+              <img src="./assets/img/slider.png" alt="" class="body-slider__img--item">
+            </a>
+            <div class="body__top-sticker">
+              <a href="#" class="body-slider__img">
+                <img src="./assets/img/sticker3.webp" alt="" class="body-slider__sticker ml-4">
+              </a>
+              <a href="#" class="body-slider__img">
+                <img src="./assets/img/sticker2.webp" alt="" class="body-slider__sticker">
+              </a>
+            </div>
+          </div>
+
+          <div class="body__top-label">
+            <a href="#" class="body-slider__img">
+              <img src="./assets/img/sticker1.webp" alt="" class="body-slider__sticker w-322 pt-10">
+            </a>
+            <a href="#" class="body-slider__img">
+              <img src="./assets/img/sticker4.webp" alt="" class="body-slider__sticker w-322 ml-12">
+            </a>
+            <a href="#" class="body-slider__img">
+              <img src="./assets/img/sticker5.webp" alt="" class="body-slider__sticker">
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="body__sticker-list pt-10">
+        <a href="#" class="body-slider__img">
+          <img src="./assets/img/sticker6.webp" alt="" class="body-slider__sticker-item">
+        </a>
+        <a href="#" class="body-slider__img">
+          <img src="./assets/img/sticker7.webp" alt="" class="body-slider__sticker-item">
+        </a>
+        <a href="#" class="body-slider__img">
+          <img src="./assets/img/sticker8.webp" alt="" class="body-slider__sticker-item">
+        </a>
+        <a href="#" class="body-slider__img">
+          <img src="./assets/img/sticker9.webp" alt="" class="body-slider__sticker-item">
+        </a>
+      </div>
+
+      <div class="body__flash-sale">
+        <div class="flash-sale__head">
+          <a href="#" class="flash-sale__head-name">
+            <i class="fa-solid fa-bolt flash-sale__head-icon"></i>
+            <span class="flash-sale__head-title">FLASH SALE CHÍNH HÃNG</span>
+          </a>
+
+          <a href="#" class="flash-sale__head-more">
+            <span class="flash-sale__head-more-name">Xem thêm khuyến mãi</span>
+            <i class="fa-solid fa-play flash-sale__head-more-icon"></i>
+          </a>
+        </div>
+
+        <div class="flash-sale__content">
+          <div class="flash-sale__content-list">
+            <a href="#" class="flash-sale__content-item">
+              <img src="./assets/img/product1.webp" alt="" class="fs__content-img">
+
+              <div class="fs__content-desc">
+                <span class="fs-desc__title">Màn hình ASUS VZ27EHE 27" IPS 75Hz viền mỏng</span>
+                <span class="fs-desc__price--old">4.990.000₫</span>
+                <span class="fs-desc__price--new">3.340.000₫</span>
+                <span class="fs-desc__discount">-33%</span>
+                <div class="fs-desc__sold">
+                  <span class="fs-desc__sold-quantity">Đã bán: 13</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="flash-sale__content-item">
+              <img src="./assets/img/manviewsonic.webp" alt="" class="fs__content-img">
+
+              <div class="fs__content-desc">
+                <span class="fs-desc__title">Màn hình Viewsonic VA2732-H 27" IPS 75Hz</span>
+                <span class="fs-desc__price--old">4.590.000₫</span>
+                <span class="fs-desc__price--new">2.940.000₫</span>
+                <span class="fs-desc__discount">-35%</span>
+                <div class="fs-desc__sold">
+                  <span class="fs-desc__sold-quantity">Đã bán: 7</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="flash-sale__content-item">
+              <img src="https://product.hstatic.net/200000722513/product/1_facebook_ads_vuong_copy_3772391e7f23413a933a84d196230787_c5e11d0322894a118c2f77805faa2774_grande.png" alt="" class="fs__content-img">
+
+              <div class="fs__content-desc">
+                <span class="fs-desc__title">Laptop Lenovo Ideapad Gaming 3 15IAH7 82S9006YVN</span>
+                <span class="fs-desc__price--old">26.990.000₫</span>
+                <span class="fs-desc__price--new">18.990.000₫</span>
+                <span class="fs-desc__discount">-29%</span>
+                <div class="fs-desc__sold">
+                  <span class="fs-desc__sold-quantity">Đã bán: 4</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="flash-sale__content-item">
+              <img src="./assets/img/pcminion.webp" alt="" class="fs__content-img">
+
+              <div class="fs__content-desc">
+                <span class="fs-desc__title">PC GVN MINION i1650</span>
+                <span class="fs-desc__price--old">10.890.000₫</span>
+                <span class="fs-desc__price--new">9.990.000₫</span>
+                <span class="fs-desc__discount">-8%</span>
+                <div class="fs-desc__sold">
+                  <span class="fs-desc__sold-quantity">Đã bán: 13</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="flash-sale__content-item">
+              <img src="./assets/img/banphimcoAKKO.webp" alt="" class="fs__content-img">
+
+              <div class="fs__content-desc">
+                <span class="fs-desc__title">Bàn phím cơ AKKO 3087 v2 DS Ocean Star</span>
+                <span class="fs-desc__price--old">1.399.000₫</span>
+                <span class="fs-desc__price--new">990.000₫</span>
+                <span class="fs-desc__discount">-29%</span>
+                <div class="fs-desc__sold">
+                  <span class="fs-desc__sold-quantity">Đã bán: 35</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="flash-sale__content-item">
+              <img src="./assets/img/chuotpulsa.webp" alt="" class="fs__content-img">
+
+              <div class="fs__content-desc">
+                <span class="fs-desc__title">Chuột Pulsar X2 Super Clear Edition</span>
+                <span class="fs-desc__price--old">3.190.000₫</span>
+                <span class="fs-desc__price--new">2.590.000₫</span>
+                <span class="fs-desc__discount">-19%</span>
+                <div class="fs-desc__sold">
+                  <span class="fs-desc__sold-quantity">Đã bán: 13</span>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="flash-sale__footer">
+          <ul class="crossbar-list">
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot slick-dot-special"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="body__flash-sale">
+        <div class="flash-sale__head">
+          <a href="#" class="flash-sale__head-name">
+            <i class="fa-solid fa-bolt flash-sale__head-icon"></i>
+            <span class="flash-sale__head-title">“CHIẾN GAME” KHÓ - CÓ GEARVN LO</span>
+          </a>
+
+          <a href="#" class="flash-sale__head-more">
+            <span class="flash-sale__head-more-name">Xem thêm khuyến mãi</span>
+            <i class="fa-solid fa-play flash-sale__head-more-icon"></i>
+          </a>
+        </div>
+
+        <div class="flash-sale__content">
+          <div class="flash-sale__content-list">
+            <a href="#" class="flash-sale__content-banner">
+              <img src="./assets/img/fs_banner.webp" alt="" class="fs__banner-img">
+            </a>
+
+            <a href="#" class="flash-sale__content-item">
+              <img src="./assets/img/pcgvn.webp" alt="" class="fs__content-img">
+
+              <div class="fs__content-desc">
+                <span class="fs-desc__title">PC GVN Homework R3</span>
+                <span class="fs-desc__price--old">6.040.000₫</span>
+                <span class="fs-desc__price--new">4.990.000₫</span>
+                <span class="fs-desc__discount">-17%</span>
+                <div class="fs-desc__sold">
+                  <span class="fs-desc__sold-quantity">Đã bán: 8</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="flash-sale__content-item">
+              <img src="./assets/img/pcminion.webp" alt="" class="fs__content-img">
+
+              <div class="fs__content-desc">
+                <span class="fs-desc__title">PC GVN MINION i1650</span>
+                <span class="fs-desc__price--old">10.890.000₫</span>
+                <span class="fs-desc__price--new">9.990.000₫</span>
+                <span class="fs-desc__discount">-8%</span>
+                <div class="fs-desc__sold">
+                  <span class="fs-desc__sold-quantity">Đã bán: 13</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="flash-sale__content-item">
+              <img src="./assets/img/pcviber.webp" alt="" class="fs__content-img">
+
+              <div class="fs__content-desc">
+                <span class="fs-desc__title">PC GVN VIPER i1660S</span>
+                <span class="fs-desc__price--old">14.430.000₫</span>
+                <span class="fs-desc__price--new">13.590.000₫</span>
+                <span class="fs-desc__discount">-5%</span>
+                <div class="fs-desc__sold">
+                  <span class="fs-desc__sold-quantity">Đã bán: 3</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="flash-sale__content-item">
+              <img src="./assets/img/pcgstudio.webp" alt="" class="fs__content-img">
+
+              <div class="fs__content-desc">
+                <span class="fs-desc__title">PC GVN G-STUDIO 7 Plus a4070Ti</span>
+                <span class="fs-desc__price--old">77.330.000₫</span>
+                <span class="fs-desc__price--new">77.000.000₫</span>
+                <span class="fs-desc__discount">-0%</span>
+                <div class="fs-desc__sold">
+                  <span class="fs-desc__sold-quantity">Đã bán: 6</span>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="flash-sale__footer">
+          <ul class="crossbar-list">
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot slick-dot-special"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+            <li class="crossbar-item">
+              <button type="button" class="slick-dot"></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="body__banner-list">
+        <a href="#" class="banner-item">
+          <img src="./assets/img/banner1.webp" alt="" class="banner-item__img">
+        </a>
+        <a href="#" class="banner-item">
+          <img src="./assets/img/banner2.webp" alt="" class="banner-item__img">
+        </a>
+      </div>
+
+      <div class="body__featuredProducts">
+        <div class="featuredProducts__head">
+          <div class="box-left">
+            <a href="#" class="fP__head-name">Laptop nổi bật</a>
+            <span class="fP__head-title">
+              <i class="fa-solid fa-truck fP__head-title-icon"></i>
+              <span>Miễn phí giao hàng</span>
+            </span>
+          </div>
+          <div class="box-right">
+            <ul class="fP__head-products-list">
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">ASUS</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">ACER</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">MSI</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">LENOVO</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">HP</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">DELL</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">LG Gram</a>
+              </li>
+            </ul>
+            <a href="#" class="fP__head-more">Xem tất cả</a>
+          </div>
+        </div>
+
+        <div class="featuredProducts__content">
+          <div class="featuredProducts__content-list">
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/product2.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Laptop Lenovo Ideapad Gaming 3 15IAH7 82S9006YVN</span>
+                <span class="fs-desc__price--old">26.990.000₫</span>
+                <span class="fs-desc__price--new">18.990.000₫</span>
+                <span class="fs-desc__discount">-29%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/laptopmsi.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Laptop Gaming MSI Katana 15 B13VEK 1205VN</span>
+                <span class="fs-desc__price--old">28.990.000₫</span>
+                <span class="fs-desc__price--new">26.990.000₫</span>
+                <span class="fs-desc__discount">-6%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/laptopasus.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Laptop ASUS Vivobook 15 OLED A1505ZA L1245W</span>
+                <span class="fs-desc__price--old">39.990.000₫</span>
+                <span class="fs-desc__price--new">36.990.000₫</span>
+                <span class="fs-desc__discount">-7%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/laptopslim.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Laptop Lenovo Ideapad Slim 5 Light 14ABR8 82XS002JVN</span>
+                <span class="fs-desc__price--old">19.990.000₫</span>
+                <span class="fs-desc__price--new">16.990.000₫</span>
+                <span class="fs-desc__discount">-15%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/laptopdell.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Laptop Dell Inspiron 15 3520 i3U082W11BLU</span>
+                <span class="fs-desc__price--old">15.190.000₫</span>
+                <span class="fs-desc__price--new">13.990.000₫</span>
+                <span class="fs-desc__discount">-7%</span>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="body__featuredProducts">
+        <div class="featuredProducts__head">
+          <div class="box-left">
+            <a href="#" class="fP__head-name">Bàn phím bán chạy</a>
+            <span class="fP__head-title">
+              <i class="fa-solid fa-truck fP__head-title-icon"></i>
+              <span>Miễn phí giao hàng</span>
+            </span>
+          </div>
+
+          <div class="box-right">
+            <ul class="fP__head-products-list">
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">Akko</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">Asus</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">Razer</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">Logitech</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">Leopold</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">DareU</a>
+              </li>
+            </ul>
+            <a href="#" class="fP__head-more">Xem tất cả</a>
+          </div>
+        </div>
+
+        <div class="featuredProducts__content">
+          <div class="featuredProducts__content-list">
+            <a href="#" class="featuredProducts__content-item featuredProducts-item--big">
+              <img src="./assets/img/product3.webp" alt="" class="fP__content-img fP__content-img--big">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Bàn phím cơ AKKO 3098N Multi-modes Blue On White</span>
+                <span class="fs-desc__price--old">2.990.000₫</span>
+                <span class="fs-desc__price--new">2.290.000₫</span>
+                <span class="fs-desc__discount">-23%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/banphimcoAKKO.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Bàn phím cơ AKKO PC98B Plus Black Gold</span>
+                <span class="fs-desc__price--old">3.090.000₫</span>
+                <span class="fs-desc__price--new">2.390.000₫</span>
+                <span class="fs-desc__discount">-22%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/banphimasus.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Bàn phím Asus ROG Azoth</span>
+                <span class="fs-desc__price--old">7.990.000₫</span>
+                <span class="fs-desc__price--new">6.990.000₫</span>
+                <span class="fs-desc__discount">-12%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/banphimrazer.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Bàn phím cơ Razer Huntsman Mini Mercury</span>
+                <span class="fs-desc__price--old">3.590.000₫</span>
+                <span class="fs-desc__price--new">3.090.000₫</span>
+                <span class="fs-desc__discount">-13%</span>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="body__banner-list">
+        <div class="banner-list-container">
+          <div class="banner-item-ctn">
+            <img src="./assets/img/banner3.webp" alt="" class="banner-item__img-ads--big">
+          </div>
+          <div class="banner-item-ctn banner-item-small">
+            <img src="./assets/img/banner4.webp" alt="" class="banner-item__img-ads--small">
+            <img src="./assets/img/banner5.webp" alt="" class="banner-item__img-ads--small">
+          </div>
+        </div>
+      </div>
+
+      <div class="body__featuredProducts height-1200">
+        <div class="featuredProducts__head">
+          <div class="box-left">
+            <a href="#" class="fP__head-name">Màn hình chính hãng</a>
+            <span class="fP__head-title">
+              <i class="fa-solid fa-truck fP__head-title-icon"></i>
+              <span>Miễn phí giao hàng</span>
+            </span>
+          </div>
+
+          <div class="box-right">
+            <ul class="fP__head-products-list">
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">LG</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">Asus</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">ViewSonic</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">Dell</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">Gigabyte</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">AOC</a>
+              </li>
+              <li class="fP__head-product-item">
+                <a href="#" class="fP__head-product">AOC</a>
+              </li>
+            </ul>
+            <a href="#" class="fP__head-more">Xem tất cả</a>
+          </div>
+        </div>
+
+        <div class="featuredProducts__content">
+          <div class="featuredProducts__content-list">
+            <a href="#" class="featuredProducts__content-item featuredProducts-item--big">
+              <img src="./assets/img/manhinhtuf.webp" alt="" class="fP__content-img fP__content-img--big">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Màn hình Asus TUF GAMING VG249Q1A 24" IPS 165Hz Gsync compatible chuyên game</span>
+                <span class="fs-desc__price--old">4.490.000₫</span>
+                <span class="fs-desc__price--new">3.590.000₫</span>
+                <span class="fs-desc__discount">-20%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/manvz24.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Màn hình ASUS VZ24EHE 24" IPS 75Hz viền mỏng</span>
+                <span class="fs-desc__price--old">3.990.000₫</span>
+                <span class="fs-desc__price--new">2.550.000₫</span>
+                <span class="fs-desc__discount">-36%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/manviewsonic.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Màn hình Viewsonic VA2432-H 24" IPS 75Hz viền mỏng</span>
+                <span class="fs-desc__price--old">4.550.000₫</span>
+                <span class="fs-desc__price--new">2.450.000₫</span>
+                <span class="fs-desc__discount">-46%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/manva.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Màn hình ASUS VA24EHF 24" IPS 100Hz viền mỏng</span>
+                <span class="fs-desc__price--old">3.190.000₫</span>
+                <span class="fs-desc__price--new">2.890.000₫</span>
+                <span class="fs-desc__discount">-9%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/manmsi.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Màn hình MSI OPTIX G274 27" IPS 170Hz G-Sync chuyên game</span>
+                <span class="fs-desc__price--old">7.550.000₫</span>
+                <span class="fs-desc__price--new">4.990.000₫</span>
+                <span class="fs-desc__discount">-33%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/product1.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Màn hình ASUS VZ27EHE 27" IPS 75Hz viền mỏng</span>
+                <span class="fs-desc__price--old">4.990.000₫</span>
+                <span class="fs-desc__price--new">3.390.000₫</span>
+                <span class="fs-desc__discount">-32%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/manhkc.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Màn hình HKC MG27H7F 27" Fast IPS 165Hz Gsync</span>
+                <span class="fs-desc__price--old">5.290.000₫</span>
+                <span class="fs-desc__price--new">4.690.000₫</span>
+                <span class="fs-desc__discount">-11%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/manacer.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Màn hình ACER EK221Q H 22" 100Hz</span>
+                <span class="fs-desc__price--old">2.490.000₫</span>
+                <span class="fs-desc__price--new">1.890.000₫</span>
+                <span class="fs-desc__discount">-24%</span>
+              </div>
+            </a>
+
+            <a href="#" class="featuredProducts__content-item">
+              <img src="./assets/img/manva.webp" alt="" class="fP__content-img">
+              <div class="fs__content-desc fP__content-desc">
+                <span class="fs-desc__title">Màn hình ASUS VA27EHF 27" IPS 100Hz viền mỏng</span>
+                <span class="fs-desc__price--old">3.790.000₫</span>
+                <span class="fs-desc__price--new">3.490.000₫</span>
+                <span class="fs-desc__discount">-7%</span>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="body__product-portfolio">
+        <div class="product-portfolio__head">
+          <span class="product-portfolio__head-title">Danh mục sản phẩm</span>
+        </div>
+        <div class="product-portfolio__content">
+          <ul class="product-portfolio__content-list">
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/product4.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Laptop</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product2.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Apple</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product3.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">PC</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product4.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Màn hình</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product5.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Mainboard</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product6.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">CPU</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product7.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Case</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product8.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Tản nhiệt</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product9.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Nguồn</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product10.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Loa</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product11.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">SSD</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product12.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">HHD</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product13.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">RAM</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product14.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Bàn phím</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product15.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Chuột</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product16.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Tai nghe</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product17.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Ghế</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product18.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Console</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product19.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Phụ kiện</span>
+              </a>
+            </li>
+            <li class="pp__content-item">
+              <a href="" class="pp__content-product">
+                <img src="./assets/img/category_product20.webp" alt="" class="pp__content-product-img">
+                <span class="pp__content-product-title">Thiết bị VP</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="body__news">
+        <div class="promotional-news">
+          <div class="news-head">
+            <div class="head__promotional">
+              <span class="news-head__title">Chuyên trang khuyến mãi</span>
+            </div>
+          </div>
+          <div class="news-content">
+            <ul class="news-content__list">
+              <li class="news-content__item">
+                <a href="#" class="news-content__item-change">
+                  <img src="./assets/img/news1.webp" alt="" class="news-content__item-img">
+                </a>
+              </li>
+              <li class="news-content__item">
+                <a href="#" class="news-content__item-change">
+                  <img src="./assets/img/news2.webp" alt="" class="news-content__item-img">
+                </a>
+              </li>
+              <li class="news-content__item">
+                <a href="#" class="news-content__item-change">
+                  <img src="./assets/img/news3.webp" alt="" class="news-content__item-img">
+                </a>
+              </li>
+              <li class="news-content__item">
+                <a href="#" class="news-content__item-change">
+                  <img src="./assets/img/news4.webp" alt="" class="news-content__item-img">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="technology-news">
+          <div class="news-head">
+            <div class="head__technolody-news">
+              <span class="news-head__title">Tin tức công nghệ</span>
+              <a href="#" class="news-head__more">Xem tất cả</a>
+            </div>
+          </div>
+          <div class="news-content">
+            <ul class="news-content__list">
+              <li class="news-content__item">
+                <a href="#" class="news-content__item-change">
+                  <img src="./assets/img/news-tech1.webp" alt="" class="news-content__item-img--tech">
+                  <span class="news-content__item-title">AOV Day 2023 - Ngày hội Liên Quân Free Skin Keera</span>
+                </a>
+              </li>
+              <li class="news-content__item">
+                <a href="#" class="news-content__item-change">
+                  <img src="./assets/img/news-tech2.webp" alt="" class="news-content__item-img--tech">
+                  <span class="news-content__item-title">Cập nhật code Legends of Speed tháng 7/2023 mới nhất</span>
+                </a>
+              </li>
+              <li class="news-content__item">
+                <a href="#" class="news-content__item-change">
+                  <img src="./assets/img/news-tech3.webp" alt="" class="news-content__item-img--tech">
+                  <span class="news-content__item-title">PlayStation công bố thiết bị cầm tay Project Q Gaming</span>
+                </a>
+              </li>
+              <li class="news-content__item">
+                <a href="#" class="news-content__item-change">
+                  <img src="./assets/img/news-tech4.webp" alt="" class="news-content__item-img--tech">
+                  <span class="news-content__item-title">Final Fantasy XVI: Sự đổi mới trong cốt truyện &
+                    gameplay?</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="body__banner-end">
+        <div class="lazyloaded">
+          <img src="./assets/img/banner_end.webp" alt="" class="lazyloaded-img">
+        </div>
+      </div>
+
+      <div class="body__trademark">
+        <div class="trademark__head">
+          <div class="trademark__head-title">
+            <i class="fa-solid fa-circle-check trademark-icon"></i>
+            <span class="trademark-title">Thương hiệu nổi bật</span>
+          </div>
+        </div>
+        <div class="trademark__content">
+          <ul class="trademark__content-list">
+            <li class="trademark__content-item">
+              <a href="#" class="trademark">
+                <img src="./assets/img/trademark1.webp" alt="" class="trademark-item__img">
+              </a>
+            </li>
+            <li class="trademark__content-item">
+              <a href="#" class="trademark">
+                <img src="./assets/img/trademark2.webp" alt="" class="trademark-item__img">
+              </a>
+            </li>
+            <li class="trademark__content-item">
+              <a href="#" class="trademark">
+                <img src="./assets/img/trademark3.webp" alt="" class="trademark-item__img">
+              </a>
+            </li>
+            <li class="trademark__content-item">
+              <a href="#" class="trademark">
+                <img src="./assets/img/trademark4.webp" alt="" class="trademark-item__img">
+              </a>
+            </li>
+            <li class="trademark__content-item">
+              <a href="#" class="trademark">
+                <img src="./assets/img/trademark5.webp" alt="" class="trademark-item__img">
+              </a>
+            </li>
+            <li class="trademark__content-item">
+              <a href="#" class="trademark">
+                <img src="./assets/img/trademark6.webp" alt="" class="trademark-item__img">
+              </a>
+            </li>
+            <li class="trademark__content-item">
+              <a href="#" class="trademark">
+                <img src="./assets/img/trademark7.webp" alt="" class="trademark-item__img">
+              </a>
+            </li>
+            <li class="trademark__content-item">
+              <a href="#" class="trademark">
+                <img src="./assets/img/trademark8.webp" alt="" class="trademark-item__img">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="grid wide footer__container">
+        <div class="footer__content">
+          <div class="row">
+            <div class="col l-2 m-4 c-6">
+              <h4 class="footer__content-heading">VỀ GEARVN</h4>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="#" class="footer-item__link">Giới thiệu</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-item__link">Tuyển dụng</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col l-2-4 m-4 c-6">
+              <h4 class="footer__content-heading">CHÍNH SÁCH</h4>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="#" class="footer-item__link">Chính sách bảo hành</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-item__link">Chính sách thanh toán</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-item__link">Chính sách giao hàng</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-item__link">Chính sách bảo mật</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col l-2-4 m-4 c-6">
+              <h4 class="footer__content-heading">THÔNG TIN</h4>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <a href="#" class="footer-item__link">Hệ thống cửa hàng</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-item__link">Trung tâm bảo hành</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col l-2-4 m-4 c-6">
+              <h4 class="footer__content-heading">TỔNG ĐÀI HỖ TRỢ</h4>
+              <ul class="footer-list">
+                <li class="footer-item">
+                  <span class="footer-item__title">Gọi mua: </span>
+                  <a href="#" class="footer-item__link footer-item__link--contact">1800.6975</a>
+                  <span class="footer-item__title">(8:00 - 21:00)</span>
+                </li>
+                <li class="footer-item">
+                  <span class="footer-item__title">CSKH: </span>
+                  <a href="#" class="footer-item__link footer-item__link--contact">1800.6173</a>
+                  <span class="footer-item__title">(8:00 - 21:00)</span>
+                </li>
+                <li class="footer-item">
+                  <span class="footer-item__title">Email: </span>
+                  <a href="#" class="footer-item__link footer-item__link--contact">cskh@gearvn.com</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col l-2-4 m-4 c-6">
+              <h4 class="footer__content-heading">ĐƠN VỊ VẬN CHUYỂN</h4>
+              <ul class="footer-list footer-list-transport">
+                <li class="footer-item">
+                  <img src="./assets/img/img_ship1.webp" alt="" class="footer-item__img">
+                </li>
+                <li class="footer-item">
+                    <img src="./assets/img/img_ship2.webp" alt="" class="footer-item__img">
+                </li>
+                <li class="footer-item">
+                  <img src="./assets/img/img_ship3.webp" alt="" class="footer-item__img">
+                </li>
+                <li class="footer-item">
+                  <img src="./assets/img/img_ship4.webp" alt="" class="footer-item__img">
+                </li>
+              </ul>
+
+              <h4 class="footer__content-heading">CÁCH THỨC THANH TOÁN</h4>
+              <ul class="footer-list footer-list-transport">
+                <li class="footer-item">
+                  <img src="./assets/img/pay_1.webp" alt="" class="footer-item__img">
+                </li>
+                <li class="footer-item">
+                    <img src="./assets/img/pay_2.webp" alt="" class="footer-item__img">
+                </li>
+                <li class="footer-item">
+                  <img src="./assets/img/pay_3.webp" alt="" class="footer-item__img">
+                </li>
+                <li class="footer-item">
+                  <img src="./assets/img/pay_4.webp" alt="" class="footer-item__img">
+                </li>
+                <li class="footer-item">
+                  <img src="./assets/img/pay_5.webp" alt="" class="footer-item__img">
+                </li>
+                <li class="footer-item">
+                    <img src="./assets/img/pay_6.webp" alt="" class="footer-item__img">
+                </li>
+                <li class="footer-item">
+                  <img src="./assets/img/pay_7.webp" alt="" class="footer-item__img">
+                </li>
+                <li class="footer-item">
+                  <img src="./assets/img/pay_8.webp" alt="" class="footer-item__img">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <div class="footer__connect">
+            <div class="footer__connect-social">
+              <span class="footer__connect-heading">KẾT NỐI VỚI CHÚNG TÔI</span>
+              <a href="#" class="footer-social__link">
+                <img src="./assets/img/facebook_1.webp" alt="" class="footer-social__img">
+              </a>
+              <a href="#" class="footer-social__link">
+                <img src="./assets/img/tiktok.webp" alt="" class="footer-social__img">
+              </a>
+              <a href="#" class="footer-social__link">
+                <img src="./assets/img/youtube.webp" alt="" class="footer-social__img">
+              </a>
+              <a href="#" class="footer-social__link">
+                <img src="./assets/img/google.webp" alt="" class="footer-social__img">
+              </a>
+              <a href="#" class="footer-social__link">
+                <img src="./assets/img/group.webp" alt="" class="footer-social__img">
+              </a>
+            </div>
+
+            <div class="footer__connect-bct">
+              <img src="./assets/img/logo-bct.webp" alt="" class="footer-bct__img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
+
+  <div class="modal modal-login">
+    <div class="modal-container js-modal-container__login">
+      <div class="modal__head">
+        <div class="modal__head-wrap">
+          <span class="modal__head-name">ĐĂNG NHẬP HOẶC TẠO TÀI KHOẢN</span>
+          <div class="modal-close js-modal-close__login">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </div>
+      <div class="modal__content">
+        <div class="modal__content-form">
+          <input type="email" class="modal-form__input" placeholder="Email">
+          <input type="password" class="modal-form__input" placeholder="Mật khẩu">
+          <a href="#" class="modal-form__forget">Quên mật khẩu?</a>
+          <button class="modal-form__btn">ĐĂNG NHẬP</button>
+        </div>
+
+        <div class="modal__content-more">
+          <div class="line">
+            <span class="line-title">hoặc đăng nhập bằng</span>
+          </div>
+
+          <div class="modal-more__login">
+            <button class="modal__login-social modal__login-google">
+              <i class="fa-brands fa-google-plus-g modal__login-icon"></i>
+              <span class="modal__login-name">Google</span>
+            </button>
+            <button class="modal__login-social modal__login-facebook">
+              <i class="fa-brands fa-facebook-f modal__login-icon"></i>
+              <span class="modal__login-name">Facebook</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="modal__footer">
+        <div class="modal__footer-link">
+          <span class="modal__footer-title">Bạn chưa có tài khoản?</span>
+          <a href="#" class="modal__footer-next-page">Đăng ký ngay!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal modal-register">
+    <div class="modal-container js-modal-container__register">
+      <div class="modal__head">
+        <div class="modal__head-wrap">
+          <span class="modal__head-name">ĐĂNG KÝ TÀI KHOẢN GEARVN</span>
+          <div class="modal-close js-modal-close__register">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </div>
+      <div class="modal__content">
+        <div class="modal__content-form">
+          <input type="text" class="modal-form__input" placeholder="Họ và Tên">
+          <input type="email" class="modal-form__input" placeholder="Email">
+          <input type="password" class="modal-form__input" placeholder="Mật khẩu">
+          <div class="modal-form__checked">
+            <input type="checkbox" class="modal-form__checkbox">
+            <span class="modal-form__input-title">Đăng ký nhận tin khuyến mãi qua Email</span>
+          </div>
+          <button class="modal-form__btn">TẠO TÀI KHOẢN</button>
+        </div>
+
+        <div class="modal__content-more">
+          <div class="line">
+            <span class="line-title">hoặc đăng nhập bằng</span>
+          </div>
+
+          <div class="modal-more__login">
+            <button class="modal__login-social modal__login-google">
+              <i class="fa-brands fa-google-plus-g modal__login-icon"></i>
+              <span class="modal__login-name">Google</span>
+            </button>
+            <button class="modal__login-social modal__login-facebook">
+              <i class="fa-brands fa-facebook-f modal__login-icon"></i>
+              <span class="modal__login-name">Facebook</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="modal__footer">
+        <div class="modal__footer-link">
+          <span class="modal__footer-title">Bạn đã có tài khoản?</span>
+          <a href="#" class="modal__footer-next-page">Đăng nhập!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    const loginBtns = document.querySelector('.login-sign-in')
+    const registerBtns = document.querySelector('.login-sign-up')
+    const modalLogin = document.querySelector('.modal-login')
+    const modalRegister = document.querySelector('.modal-register')
+    const modalContainerLogin = document.querySelector('.js-modal-container__login')
+    const modalContainerRegister = document.querySelector('.js-modal-container__register')
+    const modalCloseLogin = document.querySelector('.js-modal-close__login')
+    const modalCloseRegister = document.querySelector('.js-modal-close__register')
+
+    // Hiển thị
+    function showLogin() {
+      modalLogin.classList.add('open')
+    }
+
+    function showRegister() {
+      modalRegister.classList.add('open')
+    }
+
+    // Ẩn
+    function hideLogin() {
+      modalLogin.classList.remove('open')
+    }
+
+    function hideRegister() {
+      modalRegister.classList.remove('open')
+    }
+
+    // Lặp
+    loginBtns.addEventListener('click', showLogin)
+    registerBtns.addEventListener('click', showRegister)
+
+    // Nghe hành vi click
+    modalCloseLogin.addEventListener('click', hideLogin)
+    modalCloseRegister.addEventListener('click', hideRegister)
+
+    modalLogin.addEventListener('click', hideLogin)
+    modalRegister.addEventListener('click', hideRegister)
+
+    modalContainerLogin.addEventListener('click', function (event) {
+      event.stopPropagation();
+    })
+
+    modalContainerRegister.addEventListener('click', function (event) {
+      event.stopPropagation();
+    })
+
+  </script>
+
 </body>
 </html>
